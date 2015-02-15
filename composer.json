@@ -1,0 +1,32 @@
+{
+    "name": "slbmeh/stevebuzonas-com",
+    "description": "The base for www.stevebuzonas.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve Buzonas",
+            "email": "steve@fancyguy.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "wordpress/wordpress": "~4.0",
+        "wordpress-theme/hueman": "~1.5",
+        "wordpress-plugin/contact-form-7": "~4.1",
+        "wordpress-plugin/regenerate-thumbnails": "~2.2",
+        "wordpress-plugin/wp-pagenavi": "~2.87"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    },
+    "extra": {
+        "wordpress": {
+            "webroot": "web",
+            "content-path": "content"
+        }
+    },
+    "scripts": {
+        "runserver": "vendor/bin/heroku-php-apache2 -C conf/vhost.conf.php web/"
+    }
+}

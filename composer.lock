@@ -1,0 +1,177 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "fc7792ee704588dd9384f5d630849de7",
+    "packages": [
+        {
+            "name": "wordpress-plugin/contact-form-7",
+            "version": "4.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/contact-form-7",
+                "reference": "/tags/4.1/@1076333"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin",
+            "time": "2015-01-26 18:57:07"
+        },
+        {
+            "name": "wordpress-plugin/regenerate-thumbnails",
+            "version": "2.2.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/regenerate-thumbnails",
+                "reference": "/tags/2.2.4/@638836"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/regenerate-thumbnails.2.2.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin",
+            "time": "2012-12-13 15:46:00"
+        },
+        {
+            "name": "wordpress-plugin/wp-pagenavi",
+            "version": "2.87",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-pagenavi",
+                "reference": "/tags/2.87/@1047746"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-pagenavi.2.87.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin",
+            "time": "2014-12-17 22:30:44"
+        },
+        {
+            "name": "wordpress-theme/hueman",
+            "version": "1.5.0",
+            "source": {
+                "type": "svn",
+                "url": "http://themes.svn.wordpress.org/hueman/1.5.0",
+                "reference": "/"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/hueman.1.5.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-theme",
+            "authors": [
+                {
+                    "name": "Alexander Agnarson",
+                    "homepage": "http://alxmedia.se"
+                }
+            ],
+            "description": "<a href=\"http://alxmedia.se/themes/hueman/\">Hueman</a> is a responsive 100% high resolution theme for blogs and magazines. Unique toggle sidebars give a great browsing and reading experience on both tablet and mobile. The feature list is long: Unlimited topbar, header, footer and accent colors, unlimited widget areas, 0-2 sidebars to the left or right that can be uniquely specified for each page or post, 300px / 220px fixed width sidebars, 0-4 footer widget columns, almost zero layout images, related posts and post nav, featured story or slider, 10 post formats, good SEO, 3 flexible custom widgets, localisation support, social links, logo upload and many more useful admin panel features.",
+            "homepage": "http://alxmedia.se/themes/hueman/",
+            "keywords": [
+                "custom-colors",
+                "custom-menu",
+                "featured-images",
+                "fixed-layout",
+                "flexible-header",
+                "fluid-layout",
+                "full-width-template",
+                "left-sidebar",
+                "light",
+                "one-column",
+                "post-formats",
+                "right-sidebar",
+                "sticky-post",
+                "theme-options",
+                "threaded-comments",
+                "three-columns",
+                "translation-ready",
+                "two-columns"
+            ],
+            "time": "2015-02-06 08:45:58"
+        },
+        {
+            "name": "wordpress/wordpress",
+            "version": "4.1",
+            "source": {
+                "type": "svn",
+                "url": "http://core.svn.wordpress.org",
+                "reference": "/tags/4.1/@30962"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://wordpress.org/wordpress-4.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-core",
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "time": "2014-12-18 13:33:50"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "heroku/heroku-buildpack-php",
+            "version": "v63",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heroku/heroku-buildpack-php.git",
+                "reference": "62bddfebfd8c3e79b9710d11d558e07727356484"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/62bddfebfd8c3e79b9710d11d558e07727356484",
+                "reference": "62bddfebfd8c3e79b9710d11d558e07727356484",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/heroku-hhvm-apache2",
+                "bin/heroku-hhvm-nginx",
+                "bin/heroku-php-apache2",
+                "bin/heroku-php-nginx"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Zuelke",
+                    "email": "dz@heroku.com"
+                }
+            ],
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP/HHVM and Apache2/Nginx as on Heroku",
+            "homepage": "http://github.com/heroku/heroku-buildpack-php",
+            "keywords": [
+                "apache",
+                "apache2",
+                "foreman",
+                "heroku",
+                "hhvm",
+                "nginx",
+                "php"
+            ],
+            "time": "2015-02-10 23:24:07"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
